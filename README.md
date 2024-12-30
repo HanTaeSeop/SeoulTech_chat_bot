@@ -25,4 +25,6 @@
 # Demo Result
 ![image](https://github.com/user-attachments/assets/a22ea2e6-47ba-497b-b11b-599d1047bd44)<br>
 
+## https://github.com/HanTaeSeop/SeoulTech_chat_bot/blob/main/docs/kakao%20open%20builder%EC%9D%98%20%EC%9E%90%EC%97%B0%EC%96%B4%20%EC%B2%98%EB%A6%AC%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20%EA%B8%B0%EB%B0%98%20%EC%B1%97%EB%B4%87.pdf
+
 
