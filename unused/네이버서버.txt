@@ -1,0 +1,10 @@
+서버 접속용 공인 IP : 45.119.147.252
+외부 포트 : 5000
+서버 이름 : seoultech-chatbot
+관리자 이름 : root
+비밀번호 : D3?THUf6g-ta
+nohup python3 -u flask_app.py &
+$ lsof -i :5000
+
+
+kill -9 [PID]

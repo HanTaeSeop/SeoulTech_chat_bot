@@ -1,0 +1,114 @@
+     
+        #과기대위치와 오늘날씨 추출
+        now = datetime.now()
+        today = datetime.today()
+        today_date = today.strftime("%Y%m%d")
+        yesterday = datetime.today()- timedelta(days=1)
+        yesterday_date = yesterday.strftime("%Y%m%d")
+        
+        if now.hour<2 or (now.hour==2 and now.minute<=10): # 0시~2시 10분 사이
+            base_date=yesterday_date # 구하고자 하는 날짜가 어제의 날짜
+            base_time="2300"
+        elif now.hour<5 or (now.hour==5 and now.minute<=10): # 2시 11분~5시 10분 사이
+            base_date=today_date
+            base_time="0200"
+        elif now.hour<8 or (now.hour==8 and now.minute<=10): # 5시 11분~8시 10분 사이
+            base_date=today_date
+            base_time="0500"
+        elif now.hour<11 or (now.hour==11 and now.minute<=10): # 8시 11분~11시 10분 사이
+            base_date=today_date
+            base_time="0800"
+        elif now.hour<14 or (now.hour==14 and now.minute<=10): # 11시 11분~14시 10분 사이
+            base_date=today_date
+            base_time="1100"
+        elif now.hour<17 or (now.hour==17 and now.minute<=10): # 14시 11분~17시 10분 사이
+            base_date=today_date
+            base_time="1400"
+        elif now.hour<20 or (now.hour==20 and now.minute<=10): # 17시 11분~20시 10분 사이
+            base_date=today_date
+            base_time="1700" 
+        elif now.hour<23 or (now.hour==23 and now.minute<=10): # 20시 11분~23시 10분 사이
+            base_date=today_date
+            base_time="2000"
+        else: # 23시 11분~23시 59분
+            base_date=today_date
+            base_time="2300"
+        
+        nx = "61"
+        ny = "128"
+
+        # 공공데이터포털에서 발급받은 인증키
+        service_key = 'TA8r1YIYwAPwDeXshpFV%2FQFWSX0dXVqCNns5Emj8l0BBxFZFDnMcEZXmtR%2F9gJQFVFfDMB6wSPDk5CnZW40I2A%3D%3D'
+    
+        # API 호출을 위한 URL
+        url = 'https://apis.data.go.kr/1360000/VilageFcstInfoService_2.0/getVilageFcst?'
+        payload = "serviceKey=" + service_key + "&" +\
+            "dataType=json" + "&" +\
+            "base_date=" + base_date + "&" +\
+            "base_time=" + base_time + "&" +\
+            "nx=" + nx + "&" +\
+            "ny=" + ny
+
+        # API 호출
+        res = requests.get(url + payload)
+
+        items = res.json().get('response').get('body').get('items')
+
+        data = dict()
+        data['date'] = base_date
+
+        weather_data = dict()
+        for item in items['item']:
+            # 기온
+            if item['category'] == 'TMP':
+                weather_data['tmp'] = item['fcstValue']
+    
+            # 기상상태
+            if item['category'] == 'PTY':
+        
+                weather_code = item['fcstValue']
+        
+                if weather_code == '1':
+                    weather_state = '비'
+                elif weather_code == '2':
+                    weather_state = '비/눈'
+                elif weather_code == '3':
+                    weather_state = '눈'
+                elif weather_code == '4':
+                    weather_state = '소나기'
+                else:
+                    weather_state = '없음'
+        
+                weather_data['code'] = weather_code
+                weather_data['state'] = weather_state
+
+        data['weather'] = weather_data
+        
+        
+        
+        state=data['weather']['state']
+
+        # Dialogflow로 응답값 전송
+        ful_date = data['date'][0:4],'년'," ", data['date'][4:6], '월'," ", data['date'][6:8],'일'," ", base_time, '시의 날씨 데이터입니다.'
+        ful_tmp = "기온은", data['weather']['tmp'], "도 입니다."
+        
+        if state=='비':
+            ful_state = '비가 와요. 우산을 꼭 챙겨주세요!'
+        elif state=='비/눈':
+            ful_state ='비 또는 눈이 와요. 쌀쌀하니 따뜻하게 입어요! 우산도 꼭 챙겨주세요!'
+        elif state=='눈':
+            ful_state ='눈이 와요. 장갑을 꼭 챙기세요!'
+        elif state=='소나기':
+            ful_state ='소나기가 와요. 비가 언제 올지 모르니, 우산을 꼭 챙겨주세요!'
+        else:
+            ful_state ='날씨가 좋네요 :)'
+        
+        fulfillmentText = ''.join((ful_date)) + "\n" + ''.join((ful_tmp)) + "\n" + ful_state
+        
+    else:
+        fulfillmentText = "잘못된 요청입니다."
+    
+    return{
+            "fulfillmentText": fulfillmentText,
+            "source": "webhookdata"
+    }

@@ -1,0 +1,8 @@
+https://apis.data.go.kr/1360000/VilageFcstInfoService_2.0/getVilageFcst?serviceKey=
+TA8r1YIYwAPwDeXshpFV%2FQFWSX0dXVqCNns5Emj8l0BBxFZFDnMcEZXmtR%2F9gJQFVFfDMB6wSPDk5CnZW40I2A%3D%3D&pageNo=
+1&numOfRows=1000&dataType=JSON&base_date=20210628&base_time=0500&nx=61&ny=128
+
+-노원구 공릉동 날씨정보
+
+:본 저작물은 기상청에서 2021년 작성하여 공공누리 제1유형으로 개방한 동네예보 조회서비스(작성자:기상청)'를 이용하였으며,
+ 해당 저작물은 기상청(data.kma.go.kr/api/selectApiDetail.do)에서 무료로 다운받으실 수 있습니다.

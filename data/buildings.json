@@ -1,0 +1,288 @@
+{   "서울과학기술대":{
+        "번호": "",
+        "위치":"서울과학기술대",
+        "카카오맵": "https://place.map.kakao.com/9108449",
+        "og:image": "https://www.seoultech.ac.kr/site/www/images/intro/img_ui01_01.gif"
+
+    },
+    "대학본부": {
+        "번호": "1",
+        "위치": "대학본부",
+        "카카오맵": "https://place.map.kakao.com/17561951",
+        "og:image": "https://www.seoultech.ac.kr/storage/campus_map/SNUST1446171259513.jpg"
+    },
+    "다산관": {
+        "번호": "2",
+        "위치": "다산관",
+        "카카오맵": "https://place.map.kakao.com/17567019",
+        "추가정보": " - 신문방송사\n - 공과대학",
+        "og:image": "https://www.seoultech.ac.kr/storage/campus_map/SNUST7C2373BF368F40A0AF9DAD051CD3A639.jpg"
+    },
+    "창학관": {
+        "번호": "3",
+        "위치": "창학관",
+        "카카오맵": "https://place.map.kakao.com/17566533",
+        "추가정보": " - 정보통신대학\n - 에너지바이오대학",
+        "og:image": "http://www.seoultech.ac.kr/storage/campus_map/SNUST30A91A65983D47ACA210D7D5F6ADBAAD.jpg"
+    },
+    "제2창업보육센터": {
+        "번호": "4",
+        "위치": "제2창업보육센터",
+        "카카오맵": "https://place.map.kakao.com/26776080",
+        "og:image": "http://www.seoultech.ac.kr/storage/campus_map/SNUST1489386171299.jpg"
+    },
+    "혜성관": {
+        "번호": "5",
+        "위치": "혜성관",
+        "카카오맵": "https://place.map.kakao.com/26776095",
+        "추가정보": " - 공동실험실습관",
+        "og:image": "http://www.seoultech.ac.kr/storage/campus_map/SNUST1610347069072.JPG"
+    },
+    "청운관": {
+        "번호": "6",
+        "위치": "청운관",
+        "카카오맵": "https://place.map.kakao.com/17563286",
+        "og:image": "http://www.seoultech.ac.kr/storage/campus_map/SNUST1610347107642.JPG"
+    },
+    "서울테크노파크": {
+        "번호": "7",
+        "위치": "서울테크노파크",
+        "카카오맵": "https://place.map.kakao.com/17567285",
+        "추가정보": " - 테크노파크 식당\n - 제3매점\n - 테크노폴리스추진센터",
+        "og:image": "http://www.seoultech.ac.kr/storage/campus_map/SNUST1446171537667.jpg"
+    },
+    "창조관": {
+        "번호": "8",
+        "위치": "창조관",
+        "카카오맵": "https://place.map.kakao.com/17564692",
+        "추가정보": " - 산업대학원\n - 주택도시대학\n - 철도전문대학\n - IT정책전문대학원",
+        "og:image": "http://www.seoultech.ac.kr/storage/campus_map/SNUST1446171574095.jpg"
+    },
+    "파워플랜트": {
+        "번호": "10",
+        "위치": "파워플랜트",
+        "카카오맵": "https://place.map.kakao.com/17580027",
+        "og:image": "http://www.seoultech.ac.kr/storage/campus_map/SNUST1446176074739.jpg"
+    },
+    "붕어방": {
+        "번호": "11",
+        "위치": "붕어방",
+        "카카오맵": "https://place.map.kakao.com/17574316",
+        "og:image": "http://www.seoultech.ac.kr/storage/campus_map/SNUST1610347322917.jpg"
+    },
+    "정문": {
+        "번호": "13",
+        "위치": "정문",
+        "카카오맵": "https://place.map.kakao.com/26396910",
+        "og:image": "http://www.seoultech.ac.kr/storage/campus_map/SNUST1610347348046.JPG"
+    },
+    "도예실습실": {
+        "번호": "14",
+        "위치": "도예실습실",
+        "카카오맵": "",
+        "og:image": "http://www.seoultech.ac.kr/storage/campus_map/SNUST1446171737057.jpg"
+    },
+    "SeoulTech어린이집": {
+        "번호": "30",
+        "위치": "SeoulTech어린이집",
+        "카카오맵": "https://place.map.kakao.com/1138831141",
+        "og:image": "http://www.seoultech.ac.kr/storage/campus_map/SNUST1610949585630.jpg"
+    },
+    "창업보육센터": {
+        "번호": "31",
+        "위치": "창업보육센터",
+        "카카오맵": "https://place.map.kakao.com/9871643",
+        "og:image": "http://www.seoultech.ac.kr/storage/campus_map/SNUST1446171785093.jpg"
+    },
+    "프론티어관": {
+        "번호": "32",
+        "위치": "프론티어관",
+        "카카오맵": "https://place.map.kakao.com/26776082",
+        "추가정보": " - 기록",
+        "og:image": "http://www.seoultech.ac.kr/storage/campus_map/SNUST1446171833024.jpg"
+    },
+    "하이테크관": {
+        "번호": "33",
+        "위치": "하이테크관",
+        "카카오맵": "https://place.map.kakao.com/17567297",
+        "og:image": "http://www.seoultech.ac.kr/storage/campus_map/SNUST3BC4721B274249FB9C6A6D2BEC520AA5.jpg"
+    },
+    "중앙도서관": {
+        "번호": "34",
+        "위치": "중앙도서관",
+        "카카오맵": "https://place.map.kakao.com/17567294",
+        "추가정보": " - 도서관\n - 정보전산\n - 도서관북카페",
+        "og:image": "http://www.seoultech.ac.kr/storage/campus_map/SNUST1446171951824.jpg"
+    },
+    "중앙도서관 별관": {
+        "번호": "35",
+        "위치": "중앙도서관 별관",
+        "카카오맵": "https://place.map.kakao.com/17566520",
+        "og:image": "http://www.seoultech.ac.kr/storage/campus_map/SNUST1446177266857.jpg"
+    },
+    "수연관": {
+        "번호": "36",
+        "위치": "수연관",
+        "카카오맵": "https://place.map.kakao.com/17567018",
+        "추가정보": " - 복사실\n - 구두수선점(열쇠수리)\n - 구내미용\n - 제2복사실",
+        "og:image": "http://www.seoultech.ac.kr/storage/campus_map/SNUST1610949609783.jpg"
+    },
+    "제1학생회관": {
+        "번호": "37",
+        "위치": "제1학생회관",
+        "카카오맵": "https://place.map.kakao.com/26776088",
+        "og:image": "http://www.seoultech.ac.kr/storage/campus_map/SNUST1610949761775.jpg"
+    },
+    "국제관": {
+        "번호": "38",
+        "위치": "국제관",
+        "카카오맵": "https://place.map.kakao.com/875690789",
+        "추가정보": " - 국제교류처\n - 어학교육연구원",
+        "og:image": "http://www.seoultech.ac.kr/storage/campus_map/SNUST1446172066232.jpg"
+    },
+    "다빈치관": {
+        "번호": "39",
+        "위치": "다빈치관",
+        "카카오맵": "https://place.map.kakao.com/17565813",
+        "추가정보": " - 조형대학",
+        "og:image": "http://www.seoultech.ac.kr/storage/campus_map/SNUST1446172120805.jpg"
+    },
+    "어의관": {
+        "번호": "40",
+        "위치": "어의관",
+        "카카오맵": "https://place.map.kakao.com/17561960",
+        "추가정보": " - 인문사회대\n - 일반대학\n - 산업대학\n - 주택도시대학원",
+        "og:image": "http://www.seoultech.ac.kr/storage/campus_map/SNUST1446172160180.jpg"
+    },
+    "불암학사": {
+        "번호": "41",
+        "위치": "불암학사",
+        "카카오맵": "https://place.map.kakao.com/17563844",
+        "추가정보": " - 생활관",
+        "og:image": "http://www.seoultech.ac.kr/storage/campus_map/SNUST1446613166200.jpg"
+    },
+    "KB학사": {
+        "번호": "42",
+        "위치": "KB학사",
+        "카카오맵": "https://place.map.kakao.com/21331705",
+        "추가정보": " - 생활관",
+        "og:image": "https://www.seoultech.ac.kr/storage/campus_map/SNUST1446175420431.jpg"
+    },
+    "성림학사": {
+        "번호": "43",
+        "위치": "성림학사",
+        "카카오맵": "https://place.map.kakao.com/17564701",
+        "추가정보": " - 제4매\n - Two of Us\n - 당구장/탁구\n - 휘트니스센터",
+        "og:image": "https://www.seoultech.ac.kr/storage/campus_map/SNUST1446175477480.jpg"
+    },
+    "협동문": {
+        "번호": "44",
+        "위치": "협동문",
+        "카카오맵": "https://place.map.kakao.com/26804858",
+        "og:image": "https://www.seoultech.ac.kr/storage/campus_map/SNUST1619589755988.JPG"
+    },
+    "수림학사": {
+        "번호": "45",
+        "위치": "수림학사",
+        "카카오맵": "https://place.map.kakao.com/1403301115",
+        "og:image": "https://www.seoultech.ac.kr/storage/campus_map/SNUST1610347583619.JPG"
+    },
+    "누리학사": {
+        "번호": "46",
+        "위치": "누리학사",
+        "카카오맵": "https://place.map.kakao.com/1800157695",
+        "og:image": "https://www.seoultech.ac.kr/storage/campus_map/SNUST1610949659643.jpg"
+    },
+    "창명학사": {
+        "번호": "47",
+        "위치": "창명학사",
+        "카카오맵": "https://place.map.kakao.com/609031899",
+        "og:image": "https://www.seoultech.ac.kr/storage/campus_map/SNUST14893848097791.png"
+    },
+    "100주년기념관": {
+        "번호": "51",
+        "위치": "100주년기념관",
+        "카카오맵": "https://place.map.kakao.com/17566527",
+        "추가정보": " - 교양교육연구센\n - 연계융합전공\n - 교수학습개발센터\n - 교육정책연구센터\n - 공학교육혁신센터\n - 입학처\n - 사회교육개발원",
+        "og:image": "https://www.seoultech.ac.kr/storage/campus_map/SNUST1446176431182.jpg"
+    },
+    "제2학생회관": {
+        "번호": "52",
+        "위치": "제2학생회관",
+        "카카오맵": "https://place.map.kakao.com/17567232",
+        "추가정보": " - 제2매점\n - 소비자생활협동조합\n - 학생 제2식당\n - 화방\n - 2학생회관카페\n - 서점/문구\n - 우체국\n - 학생처\n - 취업진로본부\n - 인권센터\n - 장애학생지원센터\n - 학생상담센터\n - 보건진료소\n - 휴\n - 농협\n - 증명발급기",
+        "og:image": "https://www.seoultech.ac.kr/storage/campus_map/SNUST1446175533971.jpg"
+    },
+    "상상관": {
+        "번호": "53",
+        "위치": "상상관",
+        "카카오맵": "https://place.map.kakao.com/875225787",
+        "추가정보": " - 창의융합대학\n - 인문사회대학\n - 홍보실\n - (재)발전기금\n - 대외협력본부\n - 창업지원단",
+        "og:image": "https://www.seoultech.ac.kr/storage/campus_map/SNUST1610347663522.JPG"
+    },
+    "아름관": {
+        "번호": "54",
+        "위치": "아름관",
+        "카카오맵": "https://place.map.kakao.com/26776078",
+        "og:image": "https://www.seoultech.ac.kr/storage/campus_map/SNUST1446175753571.jpg"
+    },
+    "체육관": {
+        "번호": "55",
+        "위치": "체육관",
+        "카카오맵": "https://place.map.kakao.com/26776093",
+        "추가정보": " - 보일러실\n - 에어로빅실",
+        "og:image": "https://www.seoultech.ac.kr/storage/campus_map/SNUST1446175816090.jpg"
+    },
+    "대륙관": {
+        "번호": "56",
+        "위치": "대륙관",
+        "카카오맵": "https://place.map.kakao.com/17563848",
+        "og:image": "https://www.seoultech.ac.kr/storage/campus_map/SNUST1446175982455.jpg"
+    },
+    "무궁관": {
+        "번호": "57",
+        "위치": "무궁관",
+        "카카오맵": "https://place.map.kakao.com/17565758",
+        "추가정보": " - 무궁관 카페\n - 기술경영융합대학",
+        "og:image": "https://www.seoultech.ac.kr/storage/campus_map/SNUST1446176028036.jpg"
+    },
+    "제2파워플랜트": {
+        "번호": "58",
+        "위치": "제2파워플랜트",
+        "카카오맵": "https://place.map.kakao.com/17566964",
+        "추가정보": " - 숙직실\n - 사무실",
+        "og:image": "https://www.seoultech.ac.kr/storage/campus_map/SNUST1446176074739.jpg"
+    },
+    "학군단": {
+        "번호": "59",
+        "위치": "학군단",
+        "카카오맵": "https://place.map.kakao.com/26776085",
+        "추가정보": " - 육군학생군사교육단\n - 공군학생군사교육단",
+        "og:image": "https://www.seoultech.ac.kr/storage/campus_map/SNUST1446176131424.jpg"
+    },
+    "미래관": {
+        "번호": "60",
+        "위치": "미래관",
+        "카카오맵": "https://place.map.kakao.com/26776077",
+        "og:image": "https://www.seoultech.ac.kr/storage/campus_map/SNUST1446176176382.jpg"
+    },
+    "창의문": {
+        "번호": "61",
+        "위치": "창의문",
+        "카카오맵": "https://place.map.kakao.com/26639627",
+        "og:image": "https://www.seoultech.ac.kr/storage/campus_map/SNUST1446176301382.jpg"
+    },
+    "Techno Cube": {
+        "번호": "62",
+        "위치": "Techno Cube",
+        "카카오맵": "https://place.map.kakao.com/2110240498",
+        "추가정보": " - 산학협력",
+        "og:image": "https://www.seoultech.ac.kr/storage/campus_map/SNUST1610347638139.JPG"
+    },
+    "종합스타디움": {
+        "번호": "63",
+        "위치": "종합스타디움",
+        "카카오맵": "https://place.map.kakao.com/17567291",
+        "og:image": "https://www.seoultech.ac.kr/storage/campus_map/SNUST1489385072505.png"
+    }
+}
