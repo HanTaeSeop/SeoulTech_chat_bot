@@ -2,7 +2,8 @@
 이 레포지토리는 [Kakao 오픈빌더](https://chatbot.kakao.com/)용 웹훅(Webhook) 예시 구현을 담고 있습니다. KakaoTalk 환경에서 동작하는 챗봇이 사용자 메시지를 전달받고 응답을 생성할 수 있도록 하는 핵심 코드 예시를 제공합니다. 이를 통해 텍스트, 버튼, 리치 미디어 등 카카오톡의 다양한 메시지 유형을 효과적으로 처리할 수 있습니다.
 
 # Project Gantt Chart
-![image](https://github.com/user-attachments/assets/00f453c3-ddab-445f-a7c5-b8319380b1cb)
+![image](https://github.com/user-attachments/assets/00f453c3-ddab-445f-a7c5-b8319380b1cb)<br>
+2023.03.01 ~ 2023.11.10
 
 # How It Works
 ![image](https://github.com/user-attachments/assets/7168a386-a067-4cef-92ab-f6eeb16feaff)<br>
